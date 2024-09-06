@@ -5,3 +5,7 @@ sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-
 
 sudo dnf install ntfs-3g
 sudo dnf install doublecmd-common doublecmd-gtk
+
+
+sudo dnf install @virtualization
+sudo dnf install virt-manager
