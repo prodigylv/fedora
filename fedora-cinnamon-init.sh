@@ -9,3 +9,6 @@ sudo dnf install doublecmd-common doublecmd-gtk
 
 sudo dnf install @virtualization
 sudo dnf install virt-manager
+sudo systemctl enable virtqemud.socket
+sudo systemctl start virtqemud.socket
+sudo systemctl status virtqemud.socket
